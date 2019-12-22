@@ -1,0 +1,19 @@
+.library{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 10%;
+
+}
+
+
+
+.b-card{
+    border-radius: 10px;
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
