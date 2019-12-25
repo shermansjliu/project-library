@@ -6,14 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
     <title>Library</title>
-    <h1>Libary Books</h1>
+</head>
+<body >
+
+
+    <form  action="#" onSubmit="render()" class="form-hidden">
+            <input type="text" name="title" value="Title">
+            <input type="text" name="author" value="Author">
+            <input type="number" name="pages" value="100">
+            <div class="hasReadContainer">
+                <p>Read?</p>
+                <input type="checkbox" name="read">
+            </div>
+
+            <input type="submit" name ="submit-book" value="Add Book">
+        </form>
+
+    <header>
+        <h1>Libary Books</h1>
+        <button class="add-book-btn">
+            <p>New Book</p>
+        </button>
+    </header>
     <div class="library">
         <div class="b-card">
-            Book Title
+            <p class="attribute"></p>
+            <p class="attribute"></p>
+            <p class="attribute"></p>
+            <p class="attribute"></p>
+            <button class="remove-book-btn">Remove Book</button>
+            <button class="read-btn">Read</button>
         </div>
+
     </div>
-</head>
-<body>
+
 
 <script src="main.js"></script>
 </body>
